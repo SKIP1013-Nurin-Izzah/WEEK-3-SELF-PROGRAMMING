@@ -1,0 +1,20 @@
+package selfProgramming;
+
+public class Println {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Whatever you are, be a good one");
+		System.out.println();
+		System.out.println("She said, she said, she said, she's from Hawaii,\n" + "and how do you say cute in Japanese? KAWAII");
+		System.out.println();
+		System.out.println("Annyeonghaseyo jeonun bangtan seonyeondan\n" +
+							"uri maknae, Jeon Jungkook imnida.");
+		System.out.println();
+		System.out.println("Nayagara ppoppo");
+		
+		
+	}
+
+}
