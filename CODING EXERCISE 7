@@ -1,0 +1,18 @@
+package selfProgramming;
+
+public class MathPower {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double a= 2, b= -3, c= 1, calc;
+		
+		calc=((-b + Math.sqrt(b*b-4*a*c))/(2*a));
+		
+		System.out.print("The calculation is: " +calc);
+		
+		
+
+	}
+
+}
