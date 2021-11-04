@@ -1,0 +1,28 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class Price {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double price, totalprice;
+		int quantity;
+		
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.print("Item price: RM ");
+		price = scan.nextDouble();
+		
+		System.out.print("Quantity: ");
+		quantity = scan.nextInt();
+		
+		totalprice = price*quantity;
+		
+		System.out.printf("Total price of the item: RM %.2f" ,totalprice);
+		
+
+	}
+
+}
